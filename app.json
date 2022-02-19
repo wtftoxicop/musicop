@@ -1,9 +1,9 @@
 {
-    "name": "AdityaPlayer",
-    "logo": "https://te.legra.ph/file/2e2ddeb33674ba956148f.jpg",
+    "name": "venommusic",
+    "logo": "https://telegra.ph/file/bba6f800202a4c6c08ff6.png",
     "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/itsadityaxd/adityaplayer",
+    "repository": "https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC",
     "stack": "container",
     "env": {
         "API_ID": {
@@ -19,7 +19,7 @@
             "required": true
         },
         "STRING_SESSION": {
-            "description": "Pyrogram String Session",
+            "description": "enter pyrogram string get it from @venomstring_bot",
             "required": true
         }
     },
