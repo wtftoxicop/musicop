@@ -16,7 +16,7 @@
 
 🧪 ɢᴇᴛ SESSION_NAME ꜰʀᴏᴍ ʜᴇʀᴇ:
 
-[@genStr_Bot](https://t.me/venomstring_bot)
+[@venomstring_bot](https://t.me/venomstring_bot)
 
 
 
