@@ -146,8 +146,7 @@ async def play(_, message: Message):
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🎸please manully add assistant here 🥀** ")
-    try: 🥀 ...*")
+            f"**🎸please manully add assistant here 🥀** ...*")
         return
     
     audio = (
