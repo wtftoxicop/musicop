@@ -4,12 +4,12 @@ asyncio
 dnspython
 ffmpeg-python
 future
-git+https://github.com/adityacheats/downloader@master
+git+https://github.com/VENOMxCRAZY9/opytdl@master
 motor
 pillow
 psutil
 pyrogram
-py-tgcalls
+git+https://github.com/VENOMxCRAZY9/venomtgcalls@master
 python-dotenv
 requests
 tgcrypto
