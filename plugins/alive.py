@@ -43,7 +43,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ repo ❱ ➕", url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC"),
+                        "➕ ❰ repo ❱ ➕", url=f"https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC"),
                         InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/v3n0m_0p"),
                       InlineKeyboardButton("• Group", url=f"https://t.me/v3nom_support"),
                   ],[
