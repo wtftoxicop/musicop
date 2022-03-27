@@ -4,12 +4,12 @@ asyncio
 dnspython
 ffmpeg-python
 future
-git+https://github.com/VENOMxCRAZY9/opytdl@master
+git+https://github.com/VENOM-CRAZY/opytdl@master
 motor
 pillow
 psutil
 pyrogram
-git+https://github.com/VENOMxCRAZY9/venomtgcalls@master
+git+https://github.com/VENOM-CRAZY/venomtgcalls@master
 python-dotenv
 requests
 tgcrypto
