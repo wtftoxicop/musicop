@@ -186,7 +186,7 @@ pprint "\nEnter Your Values Below\n\n\n"
 
 pprint "API ID: "; color_reset; read API_ID
 
-pprint "\nAPI HASH: "; color_reset; read API-HASH
+pprint "\nAPI HASH: "; color_reset; read API_HASH
 
 pprint "\nBOT TOKEN: "; color_reset; read BOT_TOKEN
 
