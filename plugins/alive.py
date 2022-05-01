@@ -79,7 +79,7 @@ async def help(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
+                    InlineKeyboardButton(text=
                         " ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ ", url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC")
                 ]
             ]
