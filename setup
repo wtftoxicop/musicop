@@ -176,7 +176,7 @@ repo
 
 installation
 
-pprint "\n\n\n\n\nYukki Music Bot Installation Completed!" "cgreen"
+pprint "\n\n\n\n\nVenom Music Bot Installation Completed!" "cgreen"
 
 sleep 4
 
