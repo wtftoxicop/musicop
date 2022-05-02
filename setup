@@ -190,6 +190,12 @@ pprint "\nAPI HASH: "; color_reset; read API_HASH
 
 pprint "\nBOT TOKEN: "; color_reset; read BOT_TOKEN
 
+pprint "\nOWNER USERNAME: "; color_reset; read OWNER_USERNAME
+
+pprint "\nSUPPORT CHANNEL: "; color_reset; read SUPPORT_CHANNEL
+
+pprint "\nSUPPORT GROUP: "; color_reset; read SUPPORT_GROUP
+
 pprint "\nSTRING SESSION: "; color_reset; read STRING_SESSION
 
 pprint "\n\nProcessing your vars, Wait a while!" "cgreen"
@@ -205,6 +211,12 @@ echo """API_ID = $API_ID
 API_HASH = $API_HASH
 
 BOT_TOKEN = $BOT_TOKEN
+
+OWNER_USERNAME = $OWNER_USERNAME
+
+SUPPORT_CHANNEL = $SUPPORT_CHANNEL
+
+SUPPORT_GROUP = $SUPPORT_GROUP
 
 STRING_SESSION = $STRING_SESSION""" > .env
 
