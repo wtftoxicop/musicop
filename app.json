@@ -9,28 +9,28 @@
         "API_ID": {
             "description": "Your App ID",
             "required": true
-            "value": "5644477"
+            "value":
         },
         "API_HASH": {
             "description": "Your App Hash",
             "required": true
-            "value": "52802c488e3d2b059f79888ae6935d47"
+
         },
         "BOT_TOKEN": {
             "description": "Put Bot Token Of Your Bot",
             "required": true
-            "value": ""
+
            
         },
         "SUPPORT_GROUP": {
           "description": "PUT UR GROUP LINK HERE WITHOU @",
           "required": true
-            "value": "Gujiya_Garam"
+
         },
         "SUPPORT_CHANNEL": {
           "description": "PUT UR CHANNEL LINK HERE WITHOU @",
           "required": true
-            "value": "S3D_OP"
+
         },
         
           
@@ -39,12 +39,12 @@
         "OWNER_USERNAME": {
           "description": "PUT UR USERNAME HERE WITHOU @ LIKE VENOMxCRAZY",
           "required": true
-            "value": "VENOMxCRAZY"
+          
         },
         "STRING_SESSION": {
             "description": "enter pyrogram string get it from @venomstring_bot",
             "required": true
-            "value": ""
+
         }
     },
     "buildpacks": [
