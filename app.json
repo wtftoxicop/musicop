@@ -38,7 +38,7 @@
         "OWNER_USERNAME": {
           "description": "PUT UR USERNAME HERE WITHOU @ LIKE VENOMxCRAZY",
           "required": true
-            "value": "VENOMxCRAZY
+            "value": "VENOMxCRAZY"
         },
         "STRING_SESSION": {
             "description": "enter pyrogram string get it from @venomstring_bot",
