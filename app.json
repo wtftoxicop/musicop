@@ -19,6 +19,7 @@
         "BOT_TOKEN": {
             "description": "Put Bot Token Of Your Bot",
             "required": true
+            "value": ""
            
         },
         "SUPPORT_GROUP": {
@@ -43,6 +44,7 @@
         "STRING_SESSION": {
             "description": "enter pyrogram string get it from @venomstring_bot",
             "required": true
+            "value": ""
         }
     },
     "buildpacks": [
