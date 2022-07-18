@@ -43,7 +43,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="repo", url=f"https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC"),
+                        text="repo", url=f"https://github.com/wtftoxicop/musicop"),
                         InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                       InlineKeyboardButton(text="Group", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
@@ -55,7 +55,7 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "venomop"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/alive", "Toxicop"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/55d8a6f1a9b87eaba142f.png",
@@ -80,7 +80,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(text=
-                        " ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ ", url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC")
+                        " ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ ", url=f"https://github.com/wtftoxicop/musicop")
                 ]
             ]
         ),
