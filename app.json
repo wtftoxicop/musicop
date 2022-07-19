@@ -31,11 +31,11 @@
           
        
         "OWNER_USERNAME": {
-          "description": "PUT UR USERNAME HERE WITHOU @ LIKE VENOMxCRAZY",
+          "description": "PUT UR USERNAME HERE WITHOU @ LIKE unbeatable_abuser",
           "required": true
         },
         "STRING_SESSION": {
-            "description": "enter pyrogram string get it from @venomstring_bot",
+            "description": "enter pyrogram string get it from @wtf_toxicop_bot",
             "required": true
         }
     },
