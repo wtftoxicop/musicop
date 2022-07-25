@@ -1,7 +1,7 @@
 {
-    "name": "ToxicMUSIC",
+    "name": "QUEENMUSIC",
     "logo": "https://telegra.ph/file/8c623ff7299b03416d519.jpg",
-    "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
+    "description": "An Advanced Premium Music Bot For Telegram Groups VC and fuck others .",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC",
     "stack": "container",
@@ -19,11 +19,11 @@
             "required": true
         },
         "SUPPORT_GROUP": {
-          "description": "PUT UR GROUP LINK HERE WITHOU @",
+          "description": "PUT UR GROUP LINK HERE WITHOUT @ like venom_worlds_op",
           "required": true
         },
         "SUPPORT_CHANNEL": {
-          "description": "PUT UR CHANNEL LINK HERE WITHOU @",
+          "description": "PUT UR CHANNEL LINK HERE WITHOUT @ Like DOSTOKIJAAN",
           "required": true
         },
         
@@ -31,11 +31,11 @@
           
        
         "OWNER_USERNAME": {
-          "description": "PUT UR USERNAME HERE WITHOU @ LIKE unbeatable_abuser",
+          "description": "PUT UR USERNAME HERE WITHOU @Itz_venom_ayush",
           "required": true
         },
         "STRING_SESSION": {
-            "description": "enter pyrogram string get it from @wtf_toxicop_bot",
+            "description": "enter pyrogram string get it from @ayushxmusic_bot",
             "required": true
         }
     },
