@@ -29,59 +29,30 @@ async def _human_time_duration(seconds):
     return ', '.join(parts)
     
    
-
+    
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/8c623ff7299b03416d519.jpg",
+        photo=f"https://telegra.ph/file/b93274f340d94dac0c1ef.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ 𝙎𝙪𝙥𝙚𝙧𝙁𝙖𝙨𝙩 𝙑𝘾 𝙁𝙪𝙘𝙠𝙚𝙧 
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
-...
+💫🙈🙈 𝙔𝙚 𝙩𝙜 𝙠𝙖 𝙗𝙚𝙨𝙩 𝙢𝙪𝙨𝙞𝙘 𝙗𝙤𝙩 𝗵𝙖𝙞 𝙟𝙤 𝙡𝙖𝙜 𝙛𝙧𝙚𝙚 𝙢𝙪𝙨𝙞𝙘 𝙗𝙖𝙟𝙖𝙮𝙚𝙜𝙖
+𝙖𝙥𝙠𝙚 𝙫𝙘 𝙢𝙚𝙞𝙣🙄.𝙊𝙬𝙣𝙚𝙧:- 𝙬𝙖𝙧𝙧𝙞𝙤𝙧 𝐑𝐢𝐃𝐄𝐑  ...
+┏━━━━━━━━━━━━━━━━━┓
+┣★ 𝗦𝘂𝗽𝗽𝗼𝗿𝘁: [𝐖𝐀𝐑𝐑𝐈𝐎𝐑](https://t.me/Blue_warrior_riders)
+┣★ 𝐎𝐖𝐍𝐄𝐑: [@Masoom_banda]
+┣★ 𝗚𝗿𝗼𝘂𝗽 : [𝐖𝐀𝐑𝐑𝐈𝐎𝐑](https://t.me/Blue_warrior_riders)
+┗━━━━━━━━━━━━━━━━━┛
+𝗔𝗴𝗮𝗿 𝗮𝗽𝗸𝗼 𝗸𝗼𝗶 𝗱𝗶𝗸𝗸𝗮𝘁 𝗮𝗿𝗶 𝘁𝗼𝗵 𝗶𝗱𝗵𝗮𝗿 𝗷𝗮𝗸𝗲 𝗼𝘄𝗻𝗲𝗿 𝘀𝗲
+𝗰𝗼𝗻𝘁𝗮𝗰𝘁 𝗸𝗮𝗿𝗲😍 [𝐑𝐢𝐃𝐄𝐑](@masoom_banda)(https://t.me/Blue_warrior_riders)...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="repo", url=f"https://github.com/wtftoxicop/musicop"),
-                        InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPORT_CHANNEL}"),
-                      InlineKeyboardButton(text="Group", url=f"https://t.me/{SUPPORT_GROUP}"),
-                  ],[
-                      InlineKeyboardButton(text="CREATER", url=f"https://t.me/{OWNER_USERNAME}")
+                        "🥳𝙊𝙬𝙣𝙚𝙧 𝙞𝙙𝙝𝙖𝙧 𝙢𝙞𝙡𝙚𝙣𝙜𝙚🤩", url=f"https://t.me/Blue_warrior_riders")
                 ]
                 
            ]
         ),
     )
     
-    
-@Client.on_message(commandpro(["/start", "/alive", "Toxicop"]) & filters.group & ~filters.edited)
-async def start(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/55d8a6f1a9b87eaba142f.png",
-        caption=f"""""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(text=
-                        "ᴊᴏɪɴ ʜᴇʀᴇ", url=f"https://t.me/{SUPPORT_GROUP}")
-                ]
-            ]
-        ),
-    )
-
-
-@Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
-async def help(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/8c623ff7299b03416d519.jpg",
-        caption=f"""""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(text=
-                        " ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ ", url=f"https://github.com/wtftoxicop/musicop")
-                ]
-            ]
-        ),
-    )
